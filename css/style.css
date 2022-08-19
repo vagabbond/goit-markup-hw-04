@@ -352,6 +352,52 @@ img {
 .social-link:focus .icon-twitter {
   fill: currentColor;
 }
+.partner-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.partner-list {
+  display: flex;
+}
+.partner-list .item {
+  margin-right: 30px;
+}
+.partner-list .item:last-child {
+  margin-right: 0;
+}
+.partner-link {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: block;
+
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 32px;
+  padding-left: 32px;
+
+  color: #afb1b8;
+}
+.icon-yaco,
+.icon-company,
+.icon-circle,
+.icon-foster,
+.icon-brand,
+.icon-tag {
+  fill: currentColor;
+}
+.partner-link:hover,
+.partner-link:focus {
+  border-color: #2196f3;
+  color: #2196f3;
+}
+.icon-yaco:hover,
+.icon-yaco:focus {
+  fill: currentColor;
+}
+
 /*Main end*/
 
 /*Footer*/
